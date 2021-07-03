@@ -78,12 +78,15 @@ div.right{
 input,textarea {
     /* border-radius: 5px; */
     border-style:none;
-    border-top-right-radius:5px;
-    border-bottom-right-radius:5px;
+    border-radius:5px;
+}
+
+textarea{
+    height:200px;
 }
 
 button{
-    width:200px;
+    width:250px;
     height:2rem;
     border-radius: 5px;
     background-color:#B0D0D3;
@@ -93,9 +96,14 @@ button{
 
 label{padding:2%;
     color:#F7AF9D;
-    background-color: #ffffff;
     border-top-left-radius:5px;
     border-bottom-left-radius:5px;
+    font-weight: bold;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 65px;
 }
 
 div.form-item{
@@ -119,7 +127,8 @@ img.logo{
         display: flex;
         align-content: center;
         flex-wrap: wrap;
-        
+        width: 50%;
+
     }
     div.left{ border-bottom-left-radius:0px;
         border-bottom-right-radius:0px;
