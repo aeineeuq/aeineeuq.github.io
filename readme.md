@@ -1,6 +1,6 @@
 Portfolio Project
 =========
-
+Created as a requirement for the She Codes Plus Program
 
 Colours
 ---------
