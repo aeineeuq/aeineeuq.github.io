@@ -68,8 +68,10 @@ p{
     color: #F7AF9D;
     background-color: #ffffff;
     border-radius: 25px;
-    text-align:center;
-    padding-left:2%;
+    text-align:left;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:0%;
 }
 
 div.aside{
@@ -160,6 +162,11 @@ img.logo{
         color: #F7AF9D;
         background-color: #FFCAD4;
     }
+    .scroll-box{
+        max-height: 100px;
+        overflow-y: scroll;
+        background: #ffffff;
+    }
 }
 
 /* Typical Website Sizing */
@@ -201,8 +208,16 @@ img.logo{
         background-color: #FFCAD4;
         border-top-left-radius:0px;
         border-bottom-left-radius:0px;
-        width: 70vw;
+        width: 65vw;
         min-height:90vh;
+    }
+
+    /* scroll box */
+    .scroll-box{
+        max-height: 200px;
+        overflow-y: scroll;
+        background: #ffffff;
+        padding: 10px;
     }
 
 }
