@@ -214,7 +214,7 @@ img.logo{
 
     /* scroll box */
     .scroll-box{
-        max-height: 200px;
+        max-height: 150px;
         overflow-y: scroll;
         background: #ffffff;
         padding: 10px;
