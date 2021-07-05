@@ -68,10 +68,14 @@ p{
     color: #F7AF9D;
     background-color: #ffffff;
     border-radius: 25px;
-    text-align:left;
+    text-align:center;
     padding-left:5%;
     padding-right:5%;
     padding-top:0%;
+}
+
+p.scrolltext{
+    text-align:left;
 }
 
 div.aside{
@@ -129,6 +133,7 @@ img.logo{
     max-width: 8%;
 }
 
+
 /* Mobile Sizing */
 @media (max-width:500px){
     
@@ -166,6 +171,7 @@ img.logo{
         max-height: 100px;
         overflow-y: scroll;
         background: #ffffff;
+        text-align:justify;
     }
 }
 
