@@ -3,7 +3,7 @@
 html {
       font-family: Arial,Helvetica,sans-serif; 
       /* min-height:auto; */
-      width:100%;
+      /* width:100%; */
       position: relative;
       display:flex;
       text-align: center;
@@ -44,6 +44,7 @@ a:hover {
 .selected{
     font-weight:bold;
     background-color: #FFCAD4;
+    border-radius:25px;
     }
 
 div{
@@ -51,7 +52,7 @@ div{
     border-radius: 25px;
     }
 
-#footer{
+footer{
     position:fixed;
     bottom:0;
     width:90vw;
@@ -138,11 +139,11 @@ label{
 div.form-item{
     display: flex;
 }
-
+/* 
 #contactformdiv{
-    /* width: 100%;
-    height: 100%; */
-}
+    width: 100%;
+    height: 100%;
+} */
 
 img.logo{
     max-width: 8%;
@@ -157,10 +158,6 @@ img.logo{
         display:flex;
         width:90vw;
         min-width:250px;
-    }
-
-    .selected{
-        border-radius:25px;
     }
 
     div.aside{
@@ -205,14 +202,7 @@ img.logo{
     }
     
     .selected{
-        width:120%;
-        border-top-left-radius:25px;
-        border-bottom-left-radius:25px;
         vertical-align: auto;
-    }
-
-    a:hover {
-        width:100%;
     }
 
     div.aside{
